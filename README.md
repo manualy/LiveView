@@ -2,9 +2,9 @@
 
 learning liveview concepts
 
-#installation
-`mix deps.get`
-`mix ecto.create`
-`cd assets`
-`npm install alpinejs --save`
-`npm install tailwindcss postcss postcss-import autoprefixer --save-dev`
+# Installation
+ - `mix deps.get`
+ - `mix ecto.create`
+ - `cd assets`
+ - `npm install alpinejs --save`
+ - `npm install tailwindcss postcss postcss-import autoprefixer --save-dev`
