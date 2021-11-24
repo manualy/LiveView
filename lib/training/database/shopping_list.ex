@@ -3,7 +3,6 @@ defmodule Training.Database.ShoppingList do
   import Ecto.Changeset
 
   alias Training.Repo
-
   schema "shopping_list" do
     field :done, :boolean, default: false
     field :title, :string
@@ -54,7 +53,7 @@ defmodule Training.Database.ShoppingList do
       ** (Ecto.NoResultsError)
 
   """
-  def get_shopping_list!(id), do: Repo.get!(ShoppingList, id)
+  def get_shopping_list!(id), do: Repo.get!(__MODULE__, id)
 
   @doc """
   Updates a shopping_list.

@@ -1,10 +1,9 @@
 defmodule Training.ShoppingListTest do
   use Training.DataCase
 
-  alias Training.Database
+  alias Training.Database.ShoppingList
 
   describe "shopping_list" do
-    alias Training.Database.ShoppingList
 
     @invalid_attrs %{done: nil, title: nil}
 
